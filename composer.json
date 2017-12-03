@@ -50,6 +50,7 @@
             "@php artisan package:discover"
         ],
         "post-update-cmd": [
+            "@php artisan migrate",
             "@php artisan code:models"
         ],
         "pre-update-cmd": [
